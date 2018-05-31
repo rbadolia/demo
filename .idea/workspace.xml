@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="540ab145-8160-43e3-8429-4ce4b40df3ae" name="Default" comment="" />
+    <list default="true" id="540ab145-8160-43e3-8429-4ce4b40df3ae" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/common/MonthMaps.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/common/SiteMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception/DemoException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception/MonthNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception/SiteNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/entities/ReportEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/entities/ReportId.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportControllerAdvices.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/response/ErrorResponse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportAggregatorService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportAggregatorServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/ReportItemForAggregation.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/AllMonthsReportItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/AggregatedReportForSite.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/AllSitesReportItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/AggregatedReportForMonth.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportItem.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportItemAggregator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/ReportItemRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/ReportItemRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportItemResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/response/ReportItemResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/domain/AllMonthsReportItem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/domain/AllSitesReportItem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/domain/ReportItem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/domain/ReportItemAggregator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/persistence/CsvFileIngestor.class" afterPath="$PROJECT_DIR$/target/classes/com/ramakant/demo/persistence/CsvFileIngestor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/persistence/ReportItemRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/ramakant/demo/persistence/ReportItemRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/rest/ReportItemResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/rest/ReportingController.class" afterPath="$PROJECT_DIR$/target/classes/com/ramakant/demo/rest/ReportingController.class" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,36 +48,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ReportAggregatorServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportAggregatorServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
-                <element signature="n#parent#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#properties#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="method#AggregateOnMonth#0;class#ReportAggregatorServiceImpl#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvFileIngestor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java">
+      <file leaf-file-name="ReportingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="193">
+              <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
               <folding>
-                <element signature="docComment;method#run#0;class#CsvFileIngestor#0" expanded="false" />
-                <element signature="method#run#0;class#CsvFileIngestor#0" expanded="false" />
+                <element signature="e#1401#1536#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportControllerAdvices.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportControllerAdvices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonthNotFoundException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception/MonthNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AggregatedReportForSite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/AggregatedReportForSite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-50">
+              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/common/SiteMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -70,16 +161,57 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java" />
         <option value="$PROJECT_DIR$/src/main/java/DemoApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception/CrealyticsException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception/DemoException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ErrorResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportControllerAdvices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/Maps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/MonthMaps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/SiteMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/response/ReportItemResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportItemAggregator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportItemAggregator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportItemAggregatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/PartialReportItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportItemBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportItemAggregatorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportItemBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportItemEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportItemForAggregation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/ReportItemForAggregation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportAggregatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/entities/ReportEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportAggregatorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/AggregatedReportForMonth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/ReportItemRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/common/SiteMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/AggregatedReportForSite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/entities/ReportId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -104,10 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,6 +248,11 @@
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -148,7 +283,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -157,8 +292,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="CsvFileIngestor" type="1a9f42e2:ClassTreeNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="ReportControllerAdvices" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -166,20 +301,147 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DemoApplication" type="1a9f42e2:ClassTreeNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="ReportingController" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="SimpleJpaRepository" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="JpaRepository" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="InvocableHandlerMethod" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ramakant.demo.rest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -309,31 +571,31 @@
     <frame x="0" y="23" width="1680" height="940" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16971917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17216118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -345,49 +607,108 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java</url>
-          <line>85</line>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.7.RELEASE/spring-data-jpa-2.0.7.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.7.RELEASE/spring-data-jpa-2.0.7.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>239</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.7.RELEASE/spring-data-jpa-2.0.7.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>354</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.7.RELEASE/spring-data-jpa-2.0.7.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>358</line>
+          <properties />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportAggregatorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="method#AggregateOnMonth#0;class#ReportAggregatorServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="71" column="63" lean-forward="false" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+          <folding>
+            <element signature="e#1401#1536#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/ReportItemRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/AllMonthsReportItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/entities/ReportEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/AllSitesReportItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/ReportItemForAggregation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#736#737#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#880#881#0" expanded="false" />
+            <element signature="e#914#915#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportAggregatorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/domain/ReportItemAggregator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/response/ReportItemResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -395,11 +716,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportItemResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/AggregatedReportForSite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/AggregatedReportForMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="method#AggregatedReportForMonth#0;class#AggregatedReportForMonth#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/entities/ReportId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ReportId#1;class#ReportId#0" expanded="false" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -407,26 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;method#run#0;class#CsvFileIngestor#0" expanded="false" />
-            <element signature="method#run#0;class#CsvFileIngestor#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -450,6 +776,313 @@
             <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception/SiteNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="56" />
+          <folding>
+            <element signature="e#193#194#0" expanded="false" />
+            <element signature="e#219#220#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/common/MonthMaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="initializer##0;class#1112:1465" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/response/ErrorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception/DemoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#234#235#0" expanded="false" />
+            <element signature="e#260#261#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportAggregatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/AggregatedReportForMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="method#AggregatedReportForMonth#0;class#AggregatedReportForMonth#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/ReportItemForAggregation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#736#737#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#880#881#0" expanded="false" />
+            <element signature="e#914#915#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/response/ReportItemResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.7.RELEASE/spring-data-jpa-2.0.7.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <marker date="1527665628484" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1527665628484" expanded="false" signature="163:476" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.7.RELEASE/spring-data-jpa-2.0.7.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2274">
+          <caret line="368" column="0" lean-forward="false" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
+          <folding>
+            <marker date="1527665628484" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1527665628484" expanded="false" signature="171:2024" ph="..." />
+            <marker date="1527665628484" expanded="true" signature="2026:2075" ph="@{...}" />
+            <marker date="1527665628484" expanded="true" signature="2577:2906" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="2979:3071" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="3156:3207" ph="{...}" />
+            <marker date="1527665628484" expanded="false" signature="3285:3296" ph=" { " />
+            <marker date="1527665628484" expanded="false" signature="3317:3323" ph=" }" />
+            <marker date="1527665628484" expanded="false" signature="3364:3375" ph=" { " />
+            <marker date="1527665628484" expanded="false" signature="3419:3425" ph=" }" />
+            <marker date="1527665628484" expanded="true" signature="3472:3581" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="3624:3846" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="3901:4191" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="4021:4182" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="4245:4399" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="4478:4724" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="4797:5099" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="5148:5321" ph="{...}" />
+            <marker date="1527665628484" expanded="false" signature="5376:5387" ph=" { " />
+            <marker date="1527665628484" expanded="false" signature="5455:5461" ph=" }" />
+            <marker date="1527665628484" expanded="true" signature="5502:6054" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="6097:6237" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="6266:6399" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="6438:8102" ph="{...}" />
+            <marker date="1527665628484" expanded="false" signature="8132:8143" ph=" { " />
+            <marker date="1527665628484" expanded="false" signature="8224:8230" ph=" }" />
+            <marker date="1527665628484" expanded="true" signature="8281:9117" ph="{...}" />
+            <marker date="1527665628484" expanded="false" signature="9156:9167" ph=" { " />
+            <marker date="1527665628484" expanded="false" signature="9237:9243" ph=" }" />
+            <marker date="1527665628484" expanded="true" signature="9291:9419" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="9485:9684" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="9746:9822" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="9903:10115" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="10188:10253" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="10320:10598" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="10656:10796" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="10858:11024" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="11087:11242" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="11316:11460" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="11542:11979" ph="{...}" />
+            <marker date="1527665628484" expanded="false" signature="12004:12015" ph=" { " />
+            <marker date="1527665628484" expanded="false" signature="12106:12112" ph=" }" />
+            <marker date="1527665628484" expanded="true" signature="12169:12259" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="12322:12514" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="12585:12675" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="12759:13080" ph="{...}" />
+            <marker date="1527665628484" expanded="false" signature="13124:13135" ph=" { " />
+            <marker date="1527665628484" expanded="false" signature="13151:13157" ph=" }" />
+            <marker date="1527665628484" expanded="true" signature="13163:13181" ph="/**...*/" />
+            <marker date="1527665628484" expanded="true" signature="13302:13385" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="13527:13873" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="13777:13865" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="13964:14115" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="14242:14383" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="14466:14538" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="14657:15097" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="15103:15121" ph="/**...*/" />
+            <marker date="1527665628484" expanded="true" signature="15216:15287" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="15403:15882" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="16029:16560" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="16643:16963" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="17011:17272" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="17340:17698" ph="{...}" />
+            <marker date="1527665628484" expanded="false" signature="17755:17766" ph=" { " />
+            <marker date="1527665628484" expanded="false" signature="17794:17800" ph=" }" />
+            <marker date="1527665628484" expanded="true" signature="17879:18288" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="17973:18086" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="18183:18282" ph="{...}" />
+            <marker date="1527665628484" expanded="true" signature="18371:18962" ph="{...}" />
+            <marker date="1527665628484" expanded="false" signature="18581:18596" ph=" { " />
+            <marker date="1527665628484" expanded="false" signature="18639:18649" ph=" }" />
+            <marker date="1527665628484" expanded="true" signature="18746:18956" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/models/AggregatedReportForSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/common/SiteMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/entities/ReportId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ReportId#1;class#ReportId#0" expanded="false" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/entities/ReportEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="60" lean-forward="true" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/2018_02_report.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/2018_01_report.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="49" />
+          <folding>
+            <element signature="docComment;method#run#0;class#CsvFileIngestor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/ReportItemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/service/ReportAggregatorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="method#AggregateOnMonth#0;class#ReportAggregatorServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/exception/MonthNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <element signature="e#1401#1536#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportControllerAdvices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

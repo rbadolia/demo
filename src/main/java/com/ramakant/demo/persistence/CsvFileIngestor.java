@@ -1,7 +1,7 @@
 package com.ramakant.demo.persistence;
 
 import com.opencsv.CSVReader;
-import com.ramakant.demo.domain.ReportItem;
+import com.ramakant.demo.persistence.entities.ReportEntity;
 import com.sun.media.sound.InvalidDataException;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -49,14 +49,16 @@ public class CsvFileIngestor implements CommandLineRunner {
 
                 String[] splicedFileName = fileName.split("_");
                 int month;
+                int year;
 
                 if (splicedFileName.length < 3) {
                     throw new InvalidDataException("File name is not in correct format");
                 }
 
+                year = Integer.parseInt(splicedFileName[0]);
                 month = Integer.parseInt(splicedFileName[1]);
 
-                List<ReportItem> items = new ArrayList<>();
+                List<ReportEntity> items = new ArrayList<>();
 
                 CSVReader reader = new CSVReader(new FileReader(file.getPath()));
 
@@ -69,14 +71,15 @@ public class CsvFileIngestor implements CommandLineRunner {
                         continue;
                     }
                     try {
-                        ReportItem item = new ReportItem
+                        ReportEntity item = new ReportEntity
                                 (
+                                        year,
                                         month,
                                         record[0],
-                                        Long.parseLong(record[1].trim()),
-                                        Long.parseLong(record[2].trim()),
-                                        Integer.parseInt(record[3].trim()),
-                                        Integer.parseInt(record[4].trim()),
+                                        Double.parseDouble(record[1].trim()),
+                                        Double.parseDouble(record[2].trim()),
+                                        Double.parseDouble(record[3].trim()),
+                                        Double.parseDouble(record[4].trim()),
                                         Double.parseDouble(record[5].trim()));
 
                         items.add(item);
