@@ -46,11 +46,11 @@ public class ReportingController {
         LOGGER.info("Getting all report items from db for the given month and site...");
 
         if(!MonthMaps.monthToIdMap.containsKey(month.toUpperCase())){
-            throw new DemoException("Invalid month value");
+            throw new MonthNotFoundException("Invalid month value");
         }
 
         if(!SiteMap.siteIdToSiteNameMap.containsKey(site.toLowerCase())){
-            throw new DemoException("Invalid site value");
+            throw new SiteNotFoundException("Invalid site value");
         }
 
         int monthIndex = MonthMaps.monthToIdMap.get(month.toUpperCase());

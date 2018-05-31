@@ -1,6 +1,7 @@
 package com.ramakant.demo.service.models;
 
 import com.ramakant.demo.common.MonthMaps;
+import com.ramakant.demo.common.Round;
 
 public class AggregatedReportForMonth {
     private String month;
@@ -21,10 +22,10 @@ public class AggregatedReportForMonth {
         this.clicks = clicks;
         this.conversions = conversions;
         this.revenue = revenue;
-        this.ctr = (this.clicks / this.impressions) * 100;
-        this.cr = (this.conversions / this.impressions) * 100;
-        this.fillRate = (this.impressions / this.requests) * 100;
-        this.ecpm = (this.revenue * 1000) / this.impressions;
+        this.ctr = Round.getRoundedDouble((this.clicks / this.impressions) * 100, 2);
+        this.cr = Round.getRoundedDouble((this.conversions / this.impressions) * 100,2);
+        this.fillRate = Round.getRoundedDouble((this.impressions / this.requests) * 100, 2);
+        this.ecpm = Round.getRoundedDouble((this.revenue * 1000) / this.impressions, 2);
     }
 
     public String getMonth(){
