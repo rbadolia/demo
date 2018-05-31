@@ -47,7 +47,7 @@ public class ReportingController {
     }
 
     @GetMapping("/reports/aggregate/month/{monthName}")
-    public AggregatedReportForMonth getReportByMonth(
+    public AggregatedReportForMonth getAggregateReportByMonth(
             @PathVariable("monthName") String month
     ) {
         return reportService.getReportForMonth(month);
@@ -61,7 +61,7 @@ public class ReportingController {
     }
 
     @GetMapping("/reports/aggregate/site/{siteName}")
-    public AggregatedReportForSite getReportBySite(
+    public AggregatedReportForSite getAggregateReportBySite(
             @PathVariable("siteName") String site
     ) {
         return reportService.getReportForSite(site);
