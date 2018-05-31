@@ -10,7 +10,6 @@ Run instructions -
 http://localhost:8080/reports - All reports
 http://localhost:8080/reports/month/1/site/mobile%20web - reports after filtering on month and site
 http://localhost:8080/reports/site/mobile%20web/month/1 - reports after filtering on month and site
-
 http://localhost:8080/reports/month/1 - Aggregated reports on month
 http://localhost:8080/reports/site/mobile%20web- Aggregated reports on site
 
