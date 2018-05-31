@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="540ab145-8160-43e3-8429-4ce4b40df3ae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DemoApplication.java" afterPath="$PROJECT_DIR$/src/main/java/DemoApplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ramakant/demo/rest/ReportingController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DemoApplication.class" afterPath="$PROJECT_DIR$/target/classes/DemoApplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/persistence/CsvFileIngestor.class" afterPath="$PROJECT_DIR$/target/classes/com/ramakant/demo/persistence/CsvFileIngestor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ramakant/demo/rest/ReportingController.class" afterPath="$PROJECT_DIR$/target/classes/com/ramakant/demo/rest/ReportingController.class" />
-      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-    </list>
+    <list default="true" id="540ab145-8160-43e3-8429-4ce4b40df3ae" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
