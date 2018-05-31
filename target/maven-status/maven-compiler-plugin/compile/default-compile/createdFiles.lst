@@ -1,0 +1,6 @@
+com/ramakant/demo/persistence/CsvFileIngestor.class
+com/ramakant/demo/rest/ReportingController.class
+com/ramakant/demo/rest/ReportItemResponse.class
+DemoApplication.class
+com/ramakant/demo/persistence/ReportItemRepository.class
+com/ramakant/demo/domain/ReportItem.class

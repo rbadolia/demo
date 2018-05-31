@@ -1,0 +1,6 @@
+/Users/ig59/GitHub/demo/src/main/java/com/ramakant/demo/domain/ReportItem.java
+/Users/ig59/GitHub/demo/src/main/java/com/ramakant/demo/persistence/CsvFileIngestor.java
+/Users/ig59/GitHub/demo/src/main/java/DemoApplication.java
+/Users/ig59/GitHub/demo/src/main/java/com/ramakant/demo/rest/ReportingController.java
+/Users/ig59/GitHub/demo/src/main/java/com/ramakant/demo/rest/ReportItemResponse.java
+/Users/ig59/GitHub/demo/src/main/java/com/ramakant/demo/persistence/ReportItemRepository.java
