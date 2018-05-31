@@ -1,0 +1,11 @@
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/unit/persistence/CsvFileIngestorTests.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/acceptance/CucumberIntegrationTest.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/unit/common/SiteMapTests.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/unit/common/RoundTests.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/unit/persistence/ReportEntityRepositoryTests.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/unit/common/MonthMapTests.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/acceptance/StepDefinitions.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/unit/service/ReportAggregatorServiceTests.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/unit/rest/ReportingControllerTests.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/acceptance/StepBase.java
+/Users/ig59/GitHub/demo/src/test/java/com/ramakant/demo/test/unit/service/ReportServiceTests.java
