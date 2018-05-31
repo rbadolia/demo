@@ -1,16 +1,27 @@
-Run instructions - 
+# Reporting Demo
+**Build instructions -** 
 
-1. Open project in any suitable ide by selecting the root demo folder.
-2. Let the build manager initialise and load all dependencies.
-3. Build the solution and generate the jar file.
-4. Go to targets and run the jar file (java -jar demo-0.0.1-SNAPSHOT.jar)
-5. You can run from the ide as well. In IntelliJ, create a application in run config by selecting the DemoApplication class.
-6. Run this app and you will get the api up and running on localhost port 8080.
+1. With IDE
+    a. Open project in any suitable IDE by selecting the root demo folder.
+    b. Let all maven dependencies loaded.
+    c. Build the solution and generate the jar file.
+2. Without IDE
+    a. Go to the demo folder.
+    b. Open terminal and run following commands.
+        ```mvn clean```
+        ```mvn package```
 
-http://localhost:8080/reports - All reports
-http://localhost:8080/reports/month/1/site/mobile%20web - reports after filtering on month and site
-http://localhost:8080/reports/site/mobile%20web/month/1 - reports after filtering on month and site
-http://localhost:8080/reports/month/1 - Aggregated reports on month
-http://localhost:8080/reports/site/mobile%20web- Aggregated reports on site
+**Run instructions -**
 
+1. After successful build, you will see the jar file created in the targets folder.
+2. Go to targets and run the jar file with following command
+``` java -jar demo-0.0.1-SNAPSHOT.jar "../Files" ```
+3. After successful start, go to browser and hit http://localhost:8080/reports
+4. You will see all the report items
+5. You can try below urls as well to get other filtered reports based on path params.
 
+**(http://localhost:8080/reports)** - To get all reports
+**(http://localhost:8080/reports/month/1/site/mobile%20web)** - To get reports filtered on month and site
+**(http://localhost:8080/reports/site/mobile%20web/month/1)** - To get reports filtered on site and month
+**(http://localhost:8080/reports/month/1)** - To get aggregated report on month
+**(http://localhost:8080/reports/site/mobile%20web)** - To get aggregated reports on site
