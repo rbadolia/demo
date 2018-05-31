@@ -5,6 +5,8 @@ import com.ramakant.demo.domain.AllSitesReportItem;
 import com.ramakant.demo.domain.ReportItem;
 import com.ramakant.demo.domain.ReportItemAggregator;
 import com.ramakant.demo.persistence.ReportItemRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,11 +18,12 @@ import java.util.Map;
 
 @RestController
 public class ReportingController {
-
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
     private final Map<String, Integer> monthMap;
     private final ReportItemAggregator reportItemAggregator;
 
     public ReportingController(){
+        LOGGER.debug("Initialising month map...");
         monthMap = new HashMap<>();
         monthMap.put("1", 1);
         monthMap.put("2", 2);
@@ -57,6 +60,7 @@ public class ReportingController {
         monthMap.put("OCTOBER", 10);
         monthMap.put("NOVEMBER", 11);
         monthMap.put("DECEMBER", 12);
+        LOGGER.debug("Initialised month map...");
 
         reportItemAggregator = new ReportItemAggregator();
     }
@@ -66,6 +70,7 @@ public class ReportingController {
 
     @GetMapping("/reports")
     public List<ReportItem> GetAllReports() {
+        LOGGER.info("Getting all report items from db...");
         return reportItemRepository.findAllByOrderByMonthAsc();
     }
 
@@ -78,6 +83,8 @@ public class ReportingController {
             @PathVariable("siteName") String site
     ) {
 
+        LOGGER.info("Getting all report items from db for the given month and site...");
+
         int monthIndex = monthMap.get(month.toUpperCase());
         return reportItemRepository.findByMonthAndSite(monthIndex, site);
     }
@@ -86,6 +93,8 @@ public class ReportingController {
     public AllSitesReportItem GetReportsByMonth(
             @PathVariable("monthName") String month
     ) {
+
+        LOGGER.info("Getting aggregated report for given month from db...");
 
         int monthIndex;
 
@@ -98,6 +107,8 @@ public class ReportingController {
     public AllMonthsReportItem GetReportsBySite(
             @PathVariable("siteName") String site
     ) {
+        LOGGER.info("Getting aggregated report for given site from db...");
+
         List<ReportItem> items = reportItemRepository.findBySite(site);
         return reportItemAggregator.AggregateOnSite(items, site);
     }

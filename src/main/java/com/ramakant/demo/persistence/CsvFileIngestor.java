@@ -3,6 +3,8 @@ package com.ramakant.demo.persistence;
 import com.opencsv.CSVReader;
 import com.ramakant.demo.domain.ReportItem;
 import com.sun.media.sound.InvalidDataException;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -15,6 +17,8 @@ import java.util.List;
 @Component
 public class CsvFileIngestor implements CommandLineRunner {
 
+    protected final Log LOGGER = LogFactory.getLog(getClass());
+
     @Autowired
     private ReportItemRepository reportItemRepository;
 
@@ -25,17 +29,24 @@ public class CsvFileIngestor implements CommandLineRunner {
      * @throws Exception on error
      */
     @Override
-    public void run(String... args) throws Exception {
-        File directory = new File("./Files/.");
+    public void run(String... args) {
+        LOGGER.info("Filling in memory db with the data from csv files...");
+        String filePath = args[0];
+        LOGGER.info("Looking for csv files in " + filePath);
+
+        File directory = new File(filePath);
         File[] files = directory.listFiles();
 
         if(files == null){
+            LOGGER.info("No files found");
             return;
         }
 
         for (File file : files) {
             try {
                 String fileName = file.getName();
+                LOGGER.info("Processing file " + fileName);
+
                 String[] splicedFileName = fileName.split("_");
                 int month;
 
@@ -78,9 +89,9 @@ public class CsvFileIngestor implements CommandLineRunner {
                 reportItemRepository.saveAll(items);
 
             } catch (Exception ex) {
-                //Ignore the file with wrong format
-                System.out.println(ex.getMessage());
+                LOGGER.error(ex.getMessage());
             }
         }
     }
 }
+
