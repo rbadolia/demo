@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface ReportItemRepository extends JpaRepository<ReportEntity, Long> {
+public interface ReportEntityRepository extends JpaRepository<ReportEntity, Long> {
     List<ReportEntity> findAll();
     List<ReportEntity> findByReportIdMonth(int month);
     List<ReportEntity> findByReportIdSite(String site);

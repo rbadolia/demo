@@ -20,7 +20,7 @@ public class CsvFileIngestor implements CommandLineRunner {
     protected final Log LOGGER = LogFactory.getLog(getClass());
 
     @Autowired
-    private ReportItemRepository reportItemRepository;
+    private ReportEntityRepository reportEntityRepository;
 
     /**
      * Callback used to run the bean.
@@ -89,7 +89,7 @@ public class CsvFileIngestor implements CommandLineRunner {
                 }
 
                 reader.close();
-                reportItemRepository.saveAll(items);
+                reportEntityRepository.saveAll(items);
 
             } catch (Exception ex) {
                 LOGGER.error(ex.getMessage());

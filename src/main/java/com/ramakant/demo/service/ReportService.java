@@ -10,6 +10,8 @@ import java.util.List;
 @Service
 public interface ReportService {
     List<ReportItem> getAllReports();
+    List<ReportItem> getReportsForMonth(String month);
+    List<ReportItem> getReportsForSite(String site);
     List<ReportItem> getReportsForMonthAndSite(String month, String site);
     AggregatedReportForMonth getReportForMonth(String month);
     AggregatedReportForSite getReportForSite(String site);

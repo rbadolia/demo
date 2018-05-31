@@ -40,14 +40,28 @@ public class ReportingController {
     }
 
     @GetMapping("/reports/month/{monthName}")
-    public AggregatedReportForMonth getReportsByMonth(
+    public List<ReportItem> getReportsByMonth(
+            @PathVariable("monthName") String month
+    ) {
+        return reportService.getReportsForMonth(month);
+    }
+
+    @GetMapping("/reports/aggregate/month/{monthName}")
+    public AggregatedReportForMonth getReportByMonth(
             @PathVariable("monthName") String month
     ) {
         return reportService.getReportForMonth(month);
     }
 
     @GetMapping("/reports/site/{siteName}")
-    public AggregatedReportForSite getReportsBySite(
+    public List<ReportItem> getReportsBySite(
+            @PathVariable("siteName") String site
+    ) {
+        return reportService.getReportsForSite(site);
+    }
+
+    @GetMapping("/reports/aggregate/site/{siteName}")
+    public AggregatedReportForSite getReportBySite(
             @PathVariable("siteName") String site
     ) {
         return reportService.getReportForSite(site);
