@@ -1,5 +1,6 @@
 package com.ramakant.demo.service;
 
+import com.ramakant.demo.common.MonthMaps;
 import com.ramakant.demo.persistence.entities.ReportEntity;
 import com.ramakant.demo.service.models.AggregatedReportForMonth;
 import com.ramakant.demo.service.models.AggregatedReportForSite;
@@ -17,7 +18,7 @@ public class ReportAggregatorServiceImpl implements ReportAggregatorService {
         if (items != null) {
             List<ReportEntity> allSitesItemsForTheMonth = items.stream().filter(i -> i.getReportId().getMonth() == month).collect(Collectors.toList());
             ReportItemForAggregation aggregatedItem = getTotal(allSitesItemsForTheMonth);
-            return new AggregatedReportForMonth(month, aggregatedItem.getRequests(), aggregatedItem.getImpressions(), aggregatedItem.getClicks(), aggregatedItem.getConversions(), aggregatedItem.getRevenue());
+            return new AggregatedReportForMonth(MonthMaps.monthIdToMonthMap.get(month), aggregatedItem.getRequests(), aggregatedItem.getImpressions(), aggregatedItem.getClicks(), aggregatedItem.getConversions(), aggregatedItem.getRevenue());
         }
 
         return null;

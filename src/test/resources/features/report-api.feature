@@ -66,11 +66,11 @@ Feature: To test report api
     And file data is ingested in database
     When I request to get aggregated report with month as 1
     Then I get the response status as 200
-    And the number of records returned are 1
+    And the aggregated report for month JANUARY is returned
 
   Scenario: Aggregated report by site
     Given the report api is running
     And file data is ingested in database
     When I request to get aggregated report with site as android
     Then I get the response status as 200
-    And the number of records returned are 1
+    And the aggregated report for site android is returned

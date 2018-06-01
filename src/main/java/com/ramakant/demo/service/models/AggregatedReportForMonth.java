@@ -15,8 +15,8 @@ public class AggregatedReportForMonth {
     private double fillRate;
     private double ecpm;
 
-    public AggregatedReportForMonth(int month, double requests, double impressions, double clicks, double conversions, double revenue) {
-        this.month = MonthMaps.monthIdToMonthMap.get(month);
+    public AggregatedReportForMonth(String month, double requests, double impressions, double clicks, double conversions, double revenue) {
+        this.month = month;
         this.requests = requests;
         this.impressions = impressions;
         this.clicks = clicks;

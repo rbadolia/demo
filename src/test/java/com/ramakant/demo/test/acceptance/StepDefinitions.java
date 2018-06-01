@@ -1,7 +1,10 @@
 package com.ramakant.demo.test.acceptance;
 
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.ramakant.demo.service.models.AggregatedReportForMonth;
+import com.ramakant.demo.service.models.AggregatedReportForSite;
 import com.ramakant.demo.service.models.ReportItem;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -74,5 +77,21 @@ public class StepDefinitions extends StepBase {
     @When("^I request to get aggregated report with site as (.*)$")
     public void iRequestToGetAggregatedReportWithSiteAsAndroid(String site) throws Throwable {
         getAggregateReportBySite(site);
+    }
+
+    @And("^the aggregated report for month (.*) is returned$")
+    public void theAggregatedReportForMonthIsReturned(String month) throws Throwable {
+        AggregatedReportForMonth aggregatedReportForMonth = JsonUtils.fromJsonToObject(responseBody, new TypeReference<AggregatedReportForMonth>() {
+        });
+        assertThat(aggregatedReportForMonth).isNotNull();
+        assertThat(aggregatedReportForMonth.getMonth()).isEqualTo(month);
+    }
+
+    @And("^the aggregated report for site (.*) is returned$")
+    public void theAggregatedReportForSiteAndroidIsReturned(String site) throws Throwable {
+        AggregatedReportForSite aggregatedReportForSite = JsonUtils.fromJsonToObject(responseBody, new TypeReference<AggregatedReportForSite>() {
+        });
+        assertThat(aggregatedReportForSite).isNotNull();
+        assertThat(aggregatedReportForSite.getSite()).isEqualTo(site);
     }
 }
