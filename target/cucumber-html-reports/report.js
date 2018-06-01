@@ -38,14 +38,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 330891015,
+  "duration": 364403111,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 48823,
+  "duration": 14398,
   "status": "passed"
 });
 formatter.match({
@@ -58,7 +58,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetReportWithMonthAs(String)"
 });
 formatter.result({
-  "duration": 65215844,
+  "duration": 43409964,
   "status": "passed"
 });
 formatter.match({
@@ -71,7 +71,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 691769,
+  "duration": 779897,
   "status": "passed"
 });
 formatter.scenario({
@@ -106,14 +106,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 2789840,
+  "duration": 2292477,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 14006,
+  "duration": 18792,
   "status": "passed"
 });
 formatter.match({
@@ -126,7 +126,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetReportWithSiteAsAbc(String)"
 });
 formatter.result({
-  "duration": 3446971,
+  "duration": 3627411,
   "status": "passed"
 });
 formatter.match({
@@ -139,7 +139,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 134050,
+  "duration": 128282,
   "status": "passed"
 });
 formatter.scenario({
@@ -179,14 +179,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 1794098,
+  "duration": 1588639,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 27700,
+  "duration": 13840,
   "status": "passed"
 });
 formatter.match({
@@ -199,7 +199,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetReportWithMonthAs(String)"
 });
 formatter.result({
-  "duration": 5285095,
+  "duration": 5116165,
   "status": "passed"
 });
 formatter.match({
@@ -212,7 +212,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 161789,
+  "duration": 149645,
   "status": "passed"
 });
 formatter.match({
@@ -225,7 +225,7 @@ formatter.match({
   "location": "StepDefinitions.theNumberOfRecordsReturnedAre(int)"
 });
 formatter.result({
-  "duration": 263745660,
+  "duration": 349150025,
   "status": "passed"
 });
 formatter.scenario({
@@ -265,14 +265,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 2750167,
+  "duration": 3619555,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 53940,
+  "duration": 15298,
   "status": "passed"
 });
 formatter.match({
@@ -285,7 +285,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetReportWithMonthAs(String)"
 });
 formatter.result({
-  "duration": 4624138,
+  "duration": 5761870,
   "status": "passed"
 });
 formatter.match({
@@ -298,7 +298,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 100915,
+  "duration": 105167,
   "status": "passed"
 });
 formatter.match({
@@ -311,7 +311,7 @@ formatter.match({
   "location": "StepDefinitions.theNumberOfRecordsReturnedAre(int)"
 });
 formatter.result({
-  "duration": 602696,
+  "duration": 638085,
   "status": "passed"
 });
 formatter.scenario({
@@ -351,14 +351,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 2498594,
+  "duration": 2498835,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 17965,
+  "duration": 18185,
   "status": "passed"
 });
 formatter.match({
@@ -371,7 +371,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetReportWithMonthAs(String)"
 });
 formatter.result({
-  "duration": 7009185,
+  "duration": 5541061,
   "status": "passed"
 });
 formatter.match({
@@ -384,7 +384,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 106264,
+  "duration": 118040,
   "status": "passed"
 });
 formatter.match({
@@ -397,7 +397,7 @@ formatter.match({
   "location": "StepDefinitions.theNumberOfRecordsReturnedAre(int)"
 });
 formatter.result({
-  "duration": 688423,
+  "duration": 665240,
   "status": "passed"
 });
 formatter.scenario({
@@ -437,14 +437,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 1329277,
+  "duration": 1388665,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 15158,
+  "duration": 15121,
   "status": "passed"
 });
 formatter.match({
@@ -457,7 +457,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetReportWithSiteAsAbc(String)"
 });
 formatter.result({
-  "duration": 7187415,
+  "duration": 4681711,
   "status": "passed"
 });
 formatter.match({
@@ -470,7 +470,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 111227,
+  "duration": 97517,
   "status": "passed"
 });
 formatter.match({
@@ -483,7 +483,7 @@ formatter.match({
   "location": "StepDefinitions.theNumberOfRecordsReturnedAre(int)"
 });
 formatter.result({
-  "duration": 463197,
+  "duration": 410957,
   "status": "passed"
 });
 formatter.scenario({
@@ -523,14 +523,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 1484408,
+  "duration": 1204230,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 15493,
+  "duration": 13236,
   "status": "passed"
 });
 formatter.match({
@@ -543,7 +543,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetReportWithSiteAsAbc(String)"
 });
 formatter.result({
-  "duration": 5682726,
+  "duration": 7086366,
   "status": "passed"
 });
 formatter.match({
@@ -556,7 +556,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 103802,
+  "duration": 88168,
   "status": "passed"
 });
 formatter.match({
@@ -569,7 +569,7 @@ formatter.match({
   "location": "StepDefinitions.theNumberOfRecordsReturnedAre(int)"
 });
 formatter.result({
-  "duration": 693892,
+  "duration": 700082,
   "status": "passed"
 });
 formatter.scenario({
@@ -609,14 +609,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 1118337,
+  "duration": 1133716,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 30534,
+  "duration": 12718,
   "status": "passed"
 });
 formatter.match({
@@ -629,7 +629,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetReportWithSiteAsAbc(String)"
 });
 formatter.result({
-  "duration": 4267140,
+  "duration": 5422641,
   "status": "passed"
 });
 formatter.match({
@@ -642,7 +642,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 98072,
+  "duration": 103226,
   "status": "passed"
 });
 formatter.match({
@@ -655,7 +655,7 @@ formatter.match({
   "location": "StepDefinitions.theNumberOfRecordsReturnedAre(int)"
 });
 formatter.result({
-  "duration": 525613,
+  "duration": 436067,
   "status": "passed"
 });
 formatter.scenario({
@@ -695,14 +695,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 1928528,
+  "duration": 1050397,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 26801,
+  "duration": 15635,
   "status": "passed"
 });
 formatter.match({
@@ -715,7 +715,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetReportWithSiteAsAbc(String)"
 });
 formatter.result({
-  "duration": 5266656,
+  "duration": 5029224,
   "status": "passed"
 });
 formatter.match({
@@ -728,7 +728,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 99887,
+  "duration": 112237,
   "status": "passed"
 });
 formatter.match({
@@ -741,7 +741,7 @@ formatter.match({
   "location": "StepDefinitions.theNumberOfRecordsReturnedAre(int)"
 });
 formatter.result({
-  "duration": 778681,
+  "duration": 423324,
   "status": "passed"
 });
 formatter.scenario({
@@ -781,14 +781,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 1767183,
+  "duration": 1066818,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 58120,
+  "duration": 22537,
   "status": "passed"
 });
 formatter.match({
@@ -801,7 +801,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetAggregatedReportWithMonthAs(String)"
 });
 formatter.result({
-  "duration": 6320316,
+  "duration": 5121967,
   "status": "passed"
 });
 formatter.match({
@@ -814,7 +814,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 145465,
+  "duration": 91157,
   "status": "passed"
 });
 formatter.match({
@@ -827,7 +827,7 @@ formatter.match({
   "location": "StepDefinitions.theAggregatedReportForMonthIsReturned(String)"
 });
 formatter.result({
-  "duration": 12747450,
+  "duration": 10780207,
   "status": "passed"
 });
 formatter.scenario({
@@ -867,14 +867,14 @@ formatter.match({
   "location": "StepDefinitions.the_report_api_is_running()"
 });
 formatter.result({
-  "duration": 1371540,
+  "duration": 1089656,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.file_data_is_ingested_in_database()"
 });
 formatter.result({
-  "duration": 15657,
+  "duration": 18898,
   "status": "passed"
 });
 formatter.match({
@@ -887,7 +887,7 @@ formatter.match({
   "location": "StepDefinitions.iRequestToGetAggregatedReportWithSiteAsAndroid(String)"
 });
 formatter.result({
-  "duration": 7702835,
+  "duration": 5503444,
   "status": "passed"
 });
 formatter.match({
@@ -900,7 +900,7 @@ formatter.match({
   "location": "StepDefinitions.i_get_the_response_status_as(int)"
 });
 formatter.result({
-  "duration": 144679,
+  "duration": 95858,
   "status": "passed"
 });
 formatter.match({
@@ -913,7 +913,7 @@ formatter.match({
   "location": "StepDefinitions.theAggregatedReportForSiteAndroidIsReturned(String)"
 });
 formatter.result({
-  "duration": 2982272,
+  "duration": 2758844,
   "status": "passed"
 });
 });
