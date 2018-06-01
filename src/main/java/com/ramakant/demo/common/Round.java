@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class Round {
-    public static double getRoundedDouble(double d, int places){
+    public static double getRoundedDouble(double d, int places) {
         if (places < 0) {
             throw new IllegalArgumentException();
         }

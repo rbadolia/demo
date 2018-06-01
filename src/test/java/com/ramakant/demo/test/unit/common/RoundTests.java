@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.catchThrowable;
 
 public class RoundTests {
     @Test
-    public void Round_IllegalArgumentException_WhenPlacesAreLessThenZero(){
+    public void Round_IllegalArgumentException_WhenPlacesAreLessThenZero() {
         Throwable thrown = catchThrowable(() ->
                 Round.getRoundedDouble(1, -1)
         );
@@ -18,7 +18,7 @@ public class RoundTests {
     }
 
     @Test
-    public void Round_FiveDecimalPlacesToTwo(){
+    public void Round_FiveDecimalPlacesToTwo() {
         double rounded = Round.getRoundedDouble(1.89677, 2);
         assertThat(rounded).isEqualTo(1.90);
     }

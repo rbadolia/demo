@@ -2,6 +2,7 @@ package com.ramakant.demo.persistence.entities;
 
 import com.ramakant.demo.common.Round;
 import org.hibernate.validator.constraints.Range;
+
 import javax.persistence.Column;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
@@ -41,16 +42,16 @@ public class ReportEntity {
         this.reportId = new ReportId(year, month, site);
         this.requests = requests;
         this.impressions = impressions;
-        this.clicks=clicks;
-        this.conversions=conversions;
-        this.revenue=revenue;
+        this.clicks = clicks;
+        this.conversions = conversions;
+        this.revenue = revenue;
         this.ctr = Round.getRoundedDouble((clicks / impressions) * 100, 2);
         this.cr = Round.getRoundedDouble((conversions / impressions) * 100, 2);
         this.fillRate = Round.getRoundedDouble((impressions / requests) * 100, 2);
-        this.ecpm = Round.getRoundedDouble((revenue * 1000) / impressions,2);
+        this.ecpm = Round.getRoundedDouble((revenue * 1000) / impressions, 2);
     }
 
-    public ReportId getReportId(){
+    public ReportId getReportId() {
         return this.reportId;
     }
 

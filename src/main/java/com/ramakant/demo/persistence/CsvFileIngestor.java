@@ -37,7 +37,7 @@ public class CsvFileIngestor implements CommandLineRunner {
         File directory = new File(filePath);
         File[] files = directory.listFiles();
 
-        if(files == null){
+        if (files == null) {
             LOGGER.info("No files found");
             return;
         }

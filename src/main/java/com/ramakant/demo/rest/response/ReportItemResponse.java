@@ -4,7 +4,7 @@ import com.ramakant.demo.persistence.entities.ReportEntity;
 
 public class ReportItemResponse {
 
-    public ReportItemResponse(ReportEntity reportItem){
+    public ReportItemResponse(ReportEntity reportItem) {
 
     }
 }

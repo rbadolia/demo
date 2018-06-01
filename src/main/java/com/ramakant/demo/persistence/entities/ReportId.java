@@ -10,7 +10,7 @@ import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 @Embeddable
-public class ReportId implements Serializable{
+public class ReportId implements Serializable {
 
     private static final long serialVersionUID = 5316731204947357898L;
 
@@ -32,7 +32,7 @@ public class ReportId implements Serializable{
     public ReportId(@NotNull int year, @NotNull int month, @NotNull String site) {
         this.year = year;
 
-        if(!MonthMaps.monthIdToMonthMap.containsKey(month)){
+        if (!MonthMaps.monthIdToMonthMap.containsKey(month)) {
             throw new DemoException("Invalid month");
         }
 
@@ -48,7 +48,7 @@ public class ReportId implements Serializable{
         return this.year;
     }
 
-    public int getMonth(){
+    public int getMonth() {
         return this.month;
     }
 

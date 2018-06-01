@@ -24,7 +24,7 @@ public class AggregatedReportForSite {
         this.conversions = conversions;
         this.revenue = revenue;
         this.ctr = Round.getRoundedDouble((this.clicks / this.impressions) * 100, 2);
-        this.cr = Round.getRoundedDouble((this.conversions / this.impressions) * 100,2);
+        this.cr = Round.getRoundedDouble((this.conversions / this.impressions) * 100, 2);
         this.fillRate = Round.getRoundedDouble((this.impressions / this.requests) * 100, 2);
         this.ecpm = Round.getRoundedDouble((this.revenue * 1000) / this.impressions, 2);
     }

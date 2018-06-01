@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.ramakant.demo.service.models.AggregatedReportForMonth;
 import com.ramakant.demo.service.models.AggregatedReportForSite;
 import com.ramakant.demo.service.models.ReportItem;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

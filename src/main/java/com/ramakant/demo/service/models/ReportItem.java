@@ -25,20 +25,20 @@ public class ReportItem {
         this.site = site;
         this.requests = requests;
         this.impressions = impressions;
-        this.clicks=clicks;
-        this.conversions=conversions;
-        this.revenue=revenue;
+        this.clicks = clicks;
+        this.conversions = conversions;
+        this.revenue = revenue;
         this.ctr = Round.getRoundedDouble((clicks / impressions) * 100, 2);
         this.cr = Round.getRoundedDouble((conversions / impressions) * 100, 2);
         this.fillRate = Round.getRoundedDouble((impressions / requests) * 100, 2);
-        this.ecpm = Round.getRoundedDouble((revenue * 1000) / impressions,2);
+        this.ecpm = Round.getRoundedDouble((revenue * 1000) / impressions, 2);
     }
 
     public int getYear() {
         return this.year;
     }
 
-    public String getMonth(){
+    public String getMonth() {
         return this.month;
     }
 

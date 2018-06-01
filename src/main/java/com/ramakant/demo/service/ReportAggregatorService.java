@@ -10,5 +10,6 @@ import java.util.List;
 @Service
 public interface ReportAggregatorService {
     AggregatedReportForMonth AggregateOnMonth(List<ReportEntity> items, int month);
+
     AggregatedReportForSite AggregateOnSite(List<ReportEntity> items, String site);
 }

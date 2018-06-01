@@ -1,13 +1,11 @@
 package com.ramakant.demo.test.acceptance;
 
-import com.ramakant.demo.service.models.ReportItem;
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
 import java.io.IOException;
-import java.util.List;
 
 public class StepBase {
     protected String responseBody;
