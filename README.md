@@ -13,7 +13,7 @@
     - Go to the demo folder.
     - Open terminal and run following commands.
         - ```mvn clean```
-        - ```mvn package```
+        - ```mvn package -DskipTests```
 
 ## Run instructions
 
@@ -42,7 +42,7 @@
 
 ## Test instructions
 
-- Unit tests and acceptance tests can be run with following command
+- Unit tests and acceptance tests can be run with following command (Make sure the service is running before you trigger this command)
 ```
 mvn test
 ```
